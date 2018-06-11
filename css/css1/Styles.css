@@ -1,0 +1,343 @@
+div {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+
+
+
+*{
+			padding: 0;
+			margin: 0;
+		}
+	
+		.outer{
+			position: relative;
+			height: 10px;
+			
+			border-radius: 10px;
+			width: 400px;
+			overflow: hidden;
+			background: #ccc;
+		}
+		.outerr{
+			position: relative;
+			height: 7px;
+			
+			border-radius: 7px;
+			width: 250px;
+			overflow: hidden;
+			background: #F1EEEA;
+		}
+		
+		.inner{
+			position: absolute;
+			height: 10px;
+			width: 300px;
+			background: orange;
+			border-radius: 10px;
+		}
+		.innerr{
+			position: absolute;
+			height: 7px;
+			width: 150px;
+			background: orange;
+			border-radius: 7px;
+		}
+		
+		
+.description_highlight{
+	with: 100px;	
+	display:inline-block;
+	margin: 10px;
+}
+.uper{
+	font-size: 1.5em;
+}
+.uperr{
+	font-size: .8em;
+}
+
+.lower{
+	font-weight:bold;
+	text-align:center	
+}
+.lowerr{
+	font-weight:bold;
+	text-align:center;
+	font-size: .7em;
+}
+
+
+.logo
+{
+	text-align:center;
+	margin-top:10px;
+}
+.navbar {
+	margin-bottom: 0 !important;
+	margin-top:5px !important;
+}
+.navbar-header
+{
+	
+}
+
+
+#bold {
+	font-weight: bold;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+
+#links {
+	text-align: center;
+	font-size: 120%;
+}
+
+#formmid {
+	text-align: center;
+}
+
+#hrline {
+	border-width: 1.5px;
+	border-style: outset;
+}
+
+#break {
+	margin-left: 2em;
+}
+
+#box {
+	overflow: auto;
+	height: 300px;
+}
+
+#desc {
+	font-size: 120%;
+}
+
+#about {
+	font-size: 250%;
+}
+
+#title {
+	font-size: 200%;
+}
+#container {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+#imageee {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  
+  position: absolute;
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  left: 400px;
+  top: 100px;
+  opacity: 1;
+ 
+}
+#cat {
+	position:absolute;
+	
+}
+#cat button{
+	background-color:#1e9692;
+	width:75px;
+	height:25px;
+	border-radius: 20%;
+	font-weight:bold;
+	
+}
+#cat ul{
+	display: block;
+	margin-left:100px;
+	margin-bottom:500px;
+}
+#cat li{
+	float:left;
+	padding-right:15px;
+}
+
+#explorelist{
+	font-size: 3em;
+	
+}
+#expl ul{
+	margin-left: 35px; 
+}
+#CEO img{
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	
+}
+#CEO{
+	text-align:center;
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+
+
+.para {
+	width: 30%;
+	position: relative;
+	left: 35%;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+
+.navv {
+	position: Absolute;
+	left: 5%;
+
+	
+}
+.logo {
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+.row{
+  margin: 0;
+}
+#Name img{
+	width:100px;
+	height:25px;
+}
+
+#left_line{
+	border-left: 1px solid #eee;
+}
+
+.vertical-line{
+      width: 1px; /* Line width */
+      background-color: black; /* Line color */
+      height: 100%; /* Override in-line if you want specific height. */
+      float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+    }
+ul {
+  list-style-type: none;
+}
+.imsz img {
+	width: 250px;
+	height: 200px;
+}
+h3{
+	font-size: 1.35em;
+}
+imsz button{
+	float: right;
+	margin-right:10px;
+	
+}
+.mar{
+	margin-top:5px;
+}
+.padd{
+	border-radius: 5%;
+	border: 1px solid #eee;
+	height: 480px;
+	
+}
+.bottom-align{
+	margin-bottom: 2px;
+}
+
+.div_col{
+	background-color: #1e9692;
+	height:300px;
+}
+.div_coll{
+	background-color: #1e9692;
+	height:350px;
+}
+
+footy ul {
+	float: left;
+	display:block
+}

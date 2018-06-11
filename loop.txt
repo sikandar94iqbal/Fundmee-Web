@@ -1,0 +1,24 @@
+
+<?php
+
+while($row = mysqli_fetch_array($result0)):
+$title = $row['project_title'];
+$category = $row['project_category'];
+$location = $row['project_location'];
+$company = $row['project_company'];
+$fund = $row['project_funding_target'];
+$description = $row['project_description'];
+$video = $row['project_video'];
+$image = $row['project_image'];
+?>
+
+<h3><?php echo $title ?> </h3>
+<h3><?php echo $category ?> </h3>
+<h3><?php echo $location ?> </h3>
+<h3><?php echo $company ?> </h3>
+<h3><?php echo $fund ?> </h3>
+<h3><?php echo $description ?> </h3>
+<h3><?php echo $video ?> </h3>
+<h3><?php echo $image ?> </h3>
+
+<?php endwhile ?>
