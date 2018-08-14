@@ -3,9 +3,11 @@
 Website for crowdfunding projects
 
 # Technologies used
-PHP
-MySql
-HTML/CSS
+<ul>
+  <li>PHP</li>
+  <li>HTML/CSS</li>
+  <li>MySql</li>
+  </ul>
 
 
 
